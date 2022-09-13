@@ -1,0 +1,21 @@
+Sample api for adding products 
+POST
+http://localhost:8080/shop
+Sample JSON file
+{
+    "items":"apple,banana,tomato,potato",
+    "prices":"50,40,30,26",
+    "promotion1":"",
+    "promotion2":""
+}
+
+Enter all info separated by comma.
+
+
+
+Sample api for calculating bill
+
+GET
+http://localhost:8080/check/apple,banana,banana,potato,tomato
+
+50 + 40 + 40 + 30 + 26 = 1,86 aws
